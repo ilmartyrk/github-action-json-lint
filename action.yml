@@ -1,0 +1,9 @@
+name: 'Validate JSON file'
+description: 'Validate JSON file'
+inputs:
+  path-to-file:
+    description: 'Path to file to validate'
+    required: true
+runs:
+  using: 'node20'
+  main: 'index.js'
